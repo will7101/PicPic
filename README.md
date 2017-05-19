@@ -1,2 +1,4 @@
 # pic_mosaic
-Create a simple photo-mosaic picture with the picture itself
+
+水群的时候无聊写的东西，可以把一张图片用自己拼起来，效果如图：
+

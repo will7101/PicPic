@@ -7,11 +7,11 @@ import sys
 file_name = "huaji.png"
 try:
     im = Image.open(file_name)
-    print(im.size)
+    # print(im.size)
 except IOError:
     print("Cannot open file!")
+    sys.exit(0)
 
 out = im.resize((64, 64))
 
 out.save("out.png", "PNG")
-# im.save("output.png", "PNG")

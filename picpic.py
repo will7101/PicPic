@@ -8,7 +8,7 @@ import os
 
 
 def usage():
-    print("usage: %s [-s size] [-a alpha] <file name>" % sys.argv[0])
+    print("usage: %s [-s size] [-a alpha] <filename>" % sys.argv[0])
 
 
 def main():

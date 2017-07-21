@@ -102,3 +102,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+.idea/
+out.png
+output.png
+test.png
+/huaji.png

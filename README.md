@@ -12,9 +12,9 @@
 
 在文件目录下打开命令行，输入
 ```shell
-python3 picpic.py [-s size] [-a alpha] <filename>
+python3 picpic.py [-h] [-x width] [-y height] [-a alpha] <filename>
 ```
 即可。
 
-- -s size选项可以指定生成图片的"像素"个数
-- -a alpha选项可以指定生成图片与原图的透明度（混合比例）
+- -x -y 选项可以指定生成图片的“像素”个数
+- -a 选项可以指定生成图片与原图的透明度（混合比例）
